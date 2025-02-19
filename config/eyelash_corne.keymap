@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -51,13 +52,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "QWERTY";
+        Zer0 {
+            display-name = "Swedish AHEI";
             bindings = <
-&kp RA(W)  &kp P  &kp O      &kp U     &kp Y          &kp TAB                             &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp A      &kp H  &kp E      &kp I     &kp SEMICOLON  &td0                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp RA(P)  &kp J  &kp RA(Q)  &kp K     &kp COLON      &kp LCTRL    &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                             &kp LGUI  &mo 1          &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
+&kp RA(W)  &kp P  &kp O      &kp U     &kp Y          &kp TAB                                &kp UP                &kp BACKSPACE  &kp Q  &kp G     &kp D  &kp L  &kp W
+&kp A      &kp H  &kp E      &kp I     &kp SEMICOLON  &td0                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp APOS       &kp F  &kp S     &kp T  &kp N  &kp R
+&kp RA(P)  &kp J  &kp RA(Q)  &kp K     &kp COLON      &kp X        &bl BL_CYCLE              &kp DOWN              &kp ESC        &kp B  &kp C     &kp M  &kp V  &kp Z
+                             &kp LGUI  &mo 1          &lt 3 SPACE                                                  &lt 3 ENTER    &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
