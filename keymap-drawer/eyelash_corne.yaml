@@ -32,7 +32,7 @@ layers:
   - J
   - AltGr+Q
   - K
-  - ':'
+  - {t: ',', s: <}
   - X
   - '&bl BL_CYCLE'
   - $$mdi:arrow-down-bold$$
