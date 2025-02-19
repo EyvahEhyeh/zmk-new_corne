@@ -57,7 +57,7 @@
             bindings = <
 &kp RA(W)  &kp P  &kp O      &kp U     &kp Y          &kp TAB                                &kp UP                &kp BACKSPACE  &kp Q  &kp G     &kp D  &kp L  &kp W
 &kp A      &kp H  &kp E      &kp I     &kp SEMICOLON  &td0                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp APOS       &kp F  &kp S     &kp T  &kp N  &kp R
-&kp RA(P)  &kp J  &kp RA(Q)  &kp K     &kp COLON      &kp X        &bl BL_CYCLE              &kp DOWN              &kp ESC        &kp B  &kp C     &kp M  &kp V  &kp Z
+&kp RA(P)  &kp J  &kp RA(Q)  &kp K     &kp COMMA      &kp X        &bl BL_CYCLE              &kp DOWN              &kp ESC        &kp B  &kp C     &kp M  &kp V  &kp Z
                              &kp LGUI  &mo 1          &lt 3 SPACE                                                  &lt 3 ENTER    &mo 2  &kp RALT
             >;
 
