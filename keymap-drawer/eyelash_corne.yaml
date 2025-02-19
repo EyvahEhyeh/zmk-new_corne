@@ -1,5 +1,5 @@
 layers:
-  QWERTY:
+  Swedish AHEI:
   - AltGr+W
   - P
   - O
@@ -7,12 +7,12 @@ layers:
   - Y
   - $$mdi:keyboard-tab$$
   - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
   - {t: '$$mdi:backspace$$', type: backspace}
+  - Q
+  - G
+  - D
+  - L
+  - W
   - A
   - H
   - E
@@ -22,26 +22,26 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - .
+  - F
+  - S
+  - T
+  - N
+  - R
   - AltGr+P
   - J
   - AltGr+Q
   - K
   - ':'
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-space$$
+  - X
+  - '&bl BL_CYCLE'
   - $$mdi:arrow-down-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
+  - B
+  - C
+  - M
+  - V
+  - Z
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
