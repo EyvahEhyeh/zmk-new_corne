@@ -1,5 +1,5 @@
 layers:
-  Swedish AHEI:
+  sveahei:
   - AltGr+W
   - P
   - O
@@ -66,29 +66,29 @@ layers:
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - RGB SAI
+  - RGB EFF
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - A
+  - RGB SPI
+  - RGB BRI
+  - RGB HUI
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - RGB SAD
   - RGB EFR
-  - RGB SPI
-  - RGB BRI
+  - A
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - A
+  - RGB SPD
   - RGB BRD
+  - RGB HUD
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
