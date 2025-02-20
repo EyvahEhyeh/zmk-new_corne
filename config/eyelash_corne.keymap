@@ -53,7 +53,7 @@
         compatible = "zmk,keymap";
 
         Zer0 {
-            display-name = "Swedish AHEI";
+            display-name = "sveahei";
             bindings = <
 &kp RA(W)  &kp P  &kp O      &kp U     &kp Y          &kp TAB                                &kp UP                &kp BACKSPACE  &kp Q  &kp G     &kp D  &kp L  &kp W
 &kp A      &kp H  &kp E      &kp I     &kp SEMICOLON  &td0                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp APOS       &kp F  &kp S     &kp T  &kp N  &kp R
@@ -67,10 +67,10 @@
         low_raider {
             display-name = "low";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
+&trans  &kp N1           &kp N2          &kp N3        &kp N4           &kp N5                                    &mmv MOVE_UP                     &kp N6   &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp A    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp HOME  &kp PG_UP
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &kp A                    &mmv MOVE_DOWN                   &kp A    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &kp END   &kp PG_DN
+                                         &trans        &trans           &trans                                                                     &kp INS  &kp DEL          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -85,7 +85,7 @@
                                     &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
         Tr3s {
