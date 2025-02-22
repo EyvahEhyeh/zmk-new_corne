@@ -1,14 +1,14 @@
 layers:
-  sveahei:
+  SveaHej:
   - AltGr+W
   - P
   - O
   - U
   - Y
-  - $$mdi:keyboard-tab$$
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - Q
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - G
   - D
   - L
@@ -17,13 +17,13 @@ layers:
   - H
   - E
   - I
-  - {t: ;, s: ':'}
-  - '&td0'
+  - {t: ',', s: <}
+  - F
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - .
-  - F
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '''', s: '"'}
   - S
   - T
   - N
@@ -32,23 +32,23 @@ layers:
   - J
   - AltGr+Q
   - K
+  - .
+  - Sft+$$mdi:apple-keyboard-shift$$
   - X
-  - {t: ',', s: <}
-  - '&bl BL_CYCLE'
   - $$mdi:arrow-down-bold$$
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - B
   - C
   - M
   - V
   - Z
   - LGUI
-  - low
-  - {t: '$$mdi:keyboard-space$$', h: '3'}
-  - {t: '$$mdi:keyboard-return$$', h: '3'}
-  - raize
+  - Jo
+  - {t: '$$mdi:keyboard-space$$', h: pwood}
+  - {t: '$$mdi:keyboard-return$$', h: pwood}
+  - {t: '$$mdi:backspace$$', h: EttuBrute}
   - $$mdi:apple-keyboard-option$$
-  low:
+  Jo:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB SAD
   - RGB EFR
-  - A
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - A
   - RGB SPD
@@ -97,7 +97,7 @@ layers:
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  raize:
+  EttuBrute:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  pwood:
   - '&studio_unlock'
   - F1
   - F2
