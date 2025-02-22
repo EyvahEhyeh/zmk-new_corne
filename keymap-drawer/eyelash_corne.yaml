@@ -12,7 +12,7 @@ layers:
   - D
   - L
   - W
-  - {t: ., h: '*'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - H
@@ -41,7 +41,7 @@ layers:
   - M
   - V
   - {t: X, h: Z}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ., h: '*'}
   - LGUI
   - NEO
   - {t: '$$mdi:keyboard-space$$', h: REETH}
