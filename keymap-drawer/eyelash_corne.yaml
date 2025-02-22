@@ -1,6 +1,6 @@
 layers:
   SveaHej:
-  - AltGr+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab$$
   - AltGr+W
   - P
   - O
@@ -8,11 +8,11 @@ layers:
   - Y
   - $$mdi:arrow-up-bold$$
   - Q
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - G
+  - {t: G, h: toggle}
   - D
   - L
   - W
+  - {t: ., h: '*'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - H
@@ -22,26 +22,26 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '''', s: '"'}
+  - F
   - S
   - T
   - N
   - R
+  - {t: '-', h: /, s: _}
   - '&tdshiftcaps'
   - AltGr+P
   - J
   - AltGr+Q
   - K
-  - {t: ., s: '>'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., h: ':', s: '>'}
+  - PLAY PAUSE
   - $$mdi:arrow-down-bold$$
-  - X
   - B
   - C
   - M
   - V
-  - Z
+  - {t: X, h: Z}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
   - LGUI
   - NEO
   - {t: '$$mdi:keyboard-space$$', h: REETH}
