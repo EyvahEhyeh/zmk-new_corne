@@ -1,24 +1,24 @@
 layers:
   SveaHej:
+  - AltGr+$$mdi:keyboard-tab$$
   - AltGr+W
   - P
   - O
   - U
   - Y
-  - Q
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Q
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - G
   - D
   - L
   - W
+  - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - H
   - E
   - I
   - {t: ',', h: ;, s: <}
-  - F
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -28,15 +28,15 @@ layers:
   - T
   - N
   - R
+  - '&tdshiftcaps'
   - AltGr+P
   - J
   - AltGr+Q
   - K
-  - .
-  - '&tdshiftcaps'
-  - X
-  - $$mdi:arrow-down-bold$$
+  - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-down-bold$$
+  - X
   - B
   - C
   - M
