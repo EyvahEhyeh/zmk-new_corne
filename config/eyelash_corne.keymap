@@ -1,7 +1,6 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -53,31 +52,31 @@
         compatible = "zmk,keymap";
 
         Zer0 {
-            display-name = "sveahei";
+            display-name = "SveaHej";
             bindings = <
-&kp RA(W)  &kp P  &kp O      &kp U     &kp Y          &kp TAB                                &kp UP                &kp BACKSPACE  &kp Q  &kp G     &kp D  &kp L  &kp W
-&kp A      &kp H  &kp E      &kp I     &kp SEMICOLON  &td0                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp APOS       &kp F  &kp S     &kp T  &kp N  &kp R
-&kp RA(P)  &kp J  &kp RA(Q)  &kp K     &kp X          &kp COMMA    &bl BL_CYCLE              &kp DOWN              &kp ESC        &kp B  &kp C     &kp M  &kp V  &kp Z
-                             &kp LGUI  &mo 1          &lt 3 SPACE                                                  &lt 3 ENTER    &mo 2  &kp RALT
+&kp RA(W)  &kp P  &kp O      &kp U     &kp Y       &kp Q                                  &kp UP                &none        &none            &kp G     &kp D  &kp L  &kp W
+&kp A      &kp H  &kp E      &kp I     &kp COMMA   &kp F                        &kp LEFT  &kp ENTER  &kp RIGHT  &none        &kp SQT          &kp S     &kp T  &kp N  &kp R
+&kp RA(P)  &kp J  &kp RA(Q)  &kp K     &kp PERIOD  &kp LS(LEFT_SHIFT)  &kp X              &kp DOWN              &none        &kp B            &kp C     &kp M  &kp V  &kp Z
+                             &kp LGUI  &mo 1       &lt 3 SPACE                                                  &lt 3 ENTER  &lt 2 BACKSPACE  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        low_raider {
-            display-name = "low";
+        One {
+            display-name = "Jo";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4           &kp N5                                    &mmv MOVE_UP                     &kp N6   &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp A    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &kp A                    &mmv MOVE_DOWN                   &kp A    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &kp END   &kp PG_DN
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &none                    &mmv MOVE_DOWN                   &kp A    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &kp END   &kp PG_DN
                                          &trans        &trans           &trans                                                                     &kp INS  &kp DEL          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        raize {
-            display-name = "raize";
+        Two {
+            display-name = "EttuBrute";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
@@ -89,7 +88,7 @@
         };
 
         Tr3s {
-            display-name = "3";
+            display-name = "pwood";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
