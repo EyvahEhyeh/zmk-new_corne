@@ -20,7 +20,7 @@ layers:
   - I
   - {t: ',', h: ;, s: <}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Four, h: toggle}
   - $$mdi:arrow-right-bold$$
   - F
   - S
@@ -167,7 +167,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: SveaHej, h: toggle}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
   - $$mdi:mouse-left-click-outline$$
@@ -196,10 +196,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Four:
-  - RGB COLOR HSB(0,28,25)
-  - RGB COLOR HSB(0,44,32)
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(183,49,56)
+  - RGB COLOR HSB(303,58,40)
+  - RGB COLOR HSB(309,78,47)
+  - RGB COLOR HSB(192,66,45)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
