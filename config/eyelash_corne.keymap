@@ -94,9 +94,9 @@
             label = "SYM";
         };
 
-        NAV {
-            display-name = "", , , , Hey, listen!,, " [2]";
-
+        r {
+            label = "dfg";
+            display-name = "geg";
             bindings = <
 &none   &kp F1          &kp F2           &kp F3     &kp F4          &kp F5                                       &mmv MOVE_UP                     &kp F6     &kp F7     &kp UP_ARROW    &kp F9           &kp F10          &kp F11
 &trans  &none           &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none      &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp F12
@@ -105,7 +105,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
-            label = "NAV";
         };
 
         EatmySHORTS {
@@ -138,6 +137,38 @@
 &trans          &trans  &trans  &trans  &trans        &sys_reset    &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans        &trans                                          &trans  &trans  &trans
             >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
+        };
+
+        NAV {
+            display-name = "", , , , , Hey, listen!,, " [2]";
+
+            bindings = <
+&none   &kp F1          &kp F2           &kp F3     &kp F4          &kp F5                                       &mmv MOVE_UP                     &kp F6     &kp F7     &kp UP_ARROW    &kp F9           &kp F10          &kp F11
+&trans  &none           &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none      &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp F12
+&trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5        &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &trans     &kp HOME   &kp F8          &kp END          &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                         &to 0      &kp LEFT_SHIFT  &kp SPACE                                                                     &kp ENTER  &kp LCTRL  &to 1
+            >;
+
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            label = "NAV";
         };
     };
 };
