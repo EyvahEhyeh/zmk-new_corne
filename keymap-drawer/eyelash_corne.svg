@@ -557,14 +557,14 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#SYM">
-<text x="0" y="-4" class="key tap layer-activator">SYM</text>
+<a href="#Symba11">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">Symba11</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 318)" class="layer-SYM">
-<text x="0" y="28" class="label" id="SYM">SYM:</text>
+<g transform="translate(40, 318)" class="layer-Symba11">
+<text x="0" y="28" class="label" id="Symba11">Symba11:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -715,7 +715,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <a href="#Colors">
-<text x="0" y="-4" class="key tap layer-activator">Colors</text>
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">4Colors</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 161)" class="key backspace keypos-28">
@@ -787,8 +787,8 @@ rect.held, rect.combo.held {
 <g transform="translate(952, 161)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#EatmySHORTS">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">EatmySHOR…</tspan></text>
+<a href="#EatmSHORT3">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">EatmSHORT3</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(224, 203)" class="key keypos-42">
@@ -1080,14 +1080,14 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#SYM">
-<text x="0" y="-4" class="key tap layer-activator">SYM</text>
+<a href="#Symba11">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">Symba11</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 955)" class="layer-EatmySHORTS">
-<text x="0" y="28" class="label" id="EatmySHORTS">EatmySHORTS:</text>
+<g transform="translate(40, 955)" class="layer-EatmSHORT3">
+<text x="0" y="28" class="label" id="EatmSHORT3">EatmSHORT3:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1339,14 +1339,14 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#SYM">
-<text x="0" y="-4" class="key tap layer-activator">SYM</text>
+<a href="#Symba11">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">Symba11</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 1274)" class="layer-Colors">
-<text x="0" y="28" class="label" id="Colors">Colors:</text>
+<g transform="translate(40, 1274)" class="layer-4Colors">
+<text x="0" y="28" class="label" id="Colors">4Colors:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1634,14 +1634,14 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#SYM">
-<text x="0" y="-4" class="key tap layer-activator">SYM</text>
+<a href="#Symba11">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">Symba11</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 1592)" class="layer-SYSTER">
-<text x="0" y="28" class="label" id="SYSTER">SYSTER:</text>
+<g transform="translate(40, 1592)" class="layer-Systerra5">
+<text x="0" y="28" class="label" id="Systerra5">Systerra5:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

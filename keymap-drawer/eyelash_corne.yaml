@@ -47,8 +47,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: SYM, h: toggle}
-  SYM:
+  - {t: Symba11, h: toggle}
+  Symba11:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -76,7 +76,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - {t: Colors, h: toggle}
+  - {t: 4Colors, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -90,7 +90,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: EatmySHORTS, h: toggle}
+  - {t: EatmSHORT3, h: toggle}
   - {t: SveaHej, h: toggle}
   - '&tdshiftcaps'
   - $$mdi:keyboard-space$$
@@ -145,8 +145,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
-  - {t: SYM, h: toggle}
-  EatmySHORTS:
+  - {t: Symba11, h: toggle}
+  EatmSHORT3:
   - RGB COLOR HSB(183,49,56)
   - RGB COLOR HSB(303,58,40)
   - RGB COLOR HSB(309,78,47)
@@ -194,8 +194,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SYM, h: toggle}
-  Colors:
+  - {t: Symba11, h: toggle}
+  4Colors:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -243,8 +243,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: SYM, h: toggle}
-  SYSTER:
+  - {t: Symba11, h: toggle}
+  Systerra5:
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
