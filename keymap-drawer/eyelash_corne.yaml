@@ -96,8 +96,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
-  - {t: MOV, h: toggle}
-  MOV:
+  - {t: 'Hey, listen!', h: toggle}
+  Hey, listen!:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: MOV, h: toggle}
+  - {t: 'Hey, listen!', h: toggle}
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
