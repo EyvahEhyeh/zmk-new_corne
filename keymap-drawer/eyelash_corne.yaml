@@ -47,8 +47,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: SIMBALL, h: toggle}
-  SIMBALL:
+  - {t: SYM, h: toggle}
+  SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -90,14 +90,14 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: EatmySHORT, h: toggle}
+  - {t: EatmySHORTS, h: toggle}
   - {t: SveaHej, h: toggle}
   - '&tdshiftcaps'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
-  - {t: NAV2, h: toggle}
-  NAV2:
+  - {t: NAV, h: toggle}
+  NAV:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
@@ -145,8 +145,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
-  - {t: SIMBALL, h: toggle}
-  EatmySHORT:
+  - {t: SYM, h: toggle}
+  EatmySHORTS:
   - RGB COLOR HSB(183,49,56)
   - RGB COLOR HSB(303,58,40)
   - RGB COLOR HSB(309,78,47)
@@ -188,13 +188,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: NAV2, h: toggle}
+  - {t: NAV, h: toggle}
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SIMBALL, h: toggle}
+  - {t: SYM, h: toggle}
   RGBBLUE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: SIMBALL, h: toggle}
+  - {t: SYM, h: toggle}
   SYSTER:
   - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
