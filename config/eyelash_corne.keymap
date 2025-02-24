@@ -81,7 +81,7 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        SYM1 {
+        SYM {
             display-name = "SIMBALL";
             bindings = <
 &trans         &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &holdtap BSPC GRAVE
@@ -91,10 +91,11 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
+            label = "SYM";
         };
 
-        NAV2 {
-            display-name = "", , , Hey, listen!,, " [2]";
+        NAV {
+            display-name = "", , , , Hey, listen!,, " [2]";
 
             bindings = <
 &none   &kp F1          &kp F2           &kp F3     &kp F4          &kp F5                                       &mmv MOVE_UP                     &kp F6     &kp F7     &kp UP_ARROW    &kp F9           &kp F10          &kp F11
@@ -104,16 +105,18 @@
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
-            label = "NAV2";
+            label = "NAV";
         };
 
-        EatmySHORT {
+        EatmySHORTS {
             bindings = <
 &rgb_ug RGB_COLOR_HSB(183,49,56)  &rgb_ug RGB_COLOR_HSB(303,58,40)  &rgb_ug RGB_COLOR_HSB(309,78,47)  &rgb_ug RGB_COLOR_HSB(192,66,45)  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans                            &trans                            &trans                            &trans                            &trans  &trans            &trans  &none   &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans                            &trans                            &trans                            &trans                            &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 2
                                                                                                       &to 0                             &trans  &trans                                    &trans  &trans  &to 1
             >;
+
+            label = "EatmySHORTS";
         };
 
         RGBBLUE {
