@@ -94,7 +94,7 @@
         };
 
         MOV {
-            display-name = "MOV";
+            display-name = "Hey, listen!";
             bindings = <
 &none   &kp F1          &kp F2           &kp F3     &kp F4          &kp F5                                       &mmv MOVE_UP                     &kp F6     &kp F7     &kp UP_ARROW    &kp F9           &kp F10          &kp F11
 &trans  &none           &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none      &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp F12
