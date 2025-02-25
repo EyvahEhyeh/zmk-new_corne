@@ -49,7 +49,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: Symba11, h: toggle}
   Symba11:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - '!'
   - '@'
   - '#'
@@ -62,11 +62,11 @@ layers:
   - (
   - )
   - {t: '`', h: '$$mdi:backspace$$', s: '~'}
-  - .
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -77,11 +77,11 @@ layers:
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - {t: EatMy4ts, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - MUTE
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -92,8 +92,8 @@ layers:
   - '|'
   - {t: MultiNam3, h: toggle}
   - {t: SveaHej, h: toggle}
-  - '&tdshiftcaps'
-  - $$mdi:keyboard-space$$
+  - Meh+$$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - {t: geg, h: toggle}
@@ -112,7 +112,7 @@ layers:
   - F11
   - F12
   - SCROLLLOCK
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
@@ -120,13 +120,13 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: EatMy4ts, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
   - '&mkp MB4'
@@ -134,60 +134,60 @@ layers:
   - PgDn
   - STOP
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - HOME
   - F9
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: MultiNam3, h: toggle}
   - {t: SveaHej, h: toggle}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - {t: Symba11, h: toggle}
   MultiNam3:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: '0', s: )}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - .
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - {t: Systerra5, h: toggle}
   - {t: geg, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
   - {t: EatMy4ts, h: toggle}
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -200,43 +200,43 @@ layers:
   - RGB COLOR HSB(303,58,40)
   - RGB COLOR HSB(309,78,47)
   - RGB COLOR HSB(192,66,45)
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: R6BB, h: toggle}
   - {t: MultiNam3, h: toggle}
   - PAUSE BREAK
   - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: Systerra5, h: toggle}
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,46 +246,46 @@ layers:
   - {t: Symba11, h: toggle}
   Systerra5:
   - '&studio_unlock'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - OUT BLE
   - OUT USB
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - $$mdi:bluetooth-off$$
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: EatMy4ts, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: R6BB, h: toggle}
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,7 +294,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Symba11, h: toggle}
   R6BB:
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -307,7 +306,8 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -325,10 +325,10 @@ layers:
   - {t: Systerra5, h: toggle}
   - RGB OFF
   - RGB ON
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - RGB SAD
   - RGB EFR
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - RGB SPD
@@ -339,6 +339,6 @@ layers:
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - {t: Symba11, h: toggle}
