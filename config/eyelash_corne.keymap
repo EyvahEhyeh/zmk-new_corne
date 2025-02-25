@@ -84,10 +84,10 @@
         S1M {
             display-name = "SYM";
             bindings = <
-&trans         &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &holdtap BSPC GRAVE
-&kp BACKSPACE  &none     &none   &none     &none         &none                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &to 4
-&none          &none     &none   &none     &none         &none      &kp K_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &to 3
-                                 &to 0     &tdshiftcaps  &kp SPACE                                                                 &kp ENTER  &kp LEFT_ALT  &to 2
+&trans      &kp EXCL  &kp AT  &kp HASH  &kp DLLR      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &holdtap BSPC GRAVE
+&kp PERIOD  &none     &none   &none     &none         &none                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &to 4
+&none       &none     &none   &none     &none         &none      &kp K_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &to 3
+                              &to 0     &tdshiftcaps  &kp SPACE                                                                 &kp ENTER  &kp LEFT_ALT  &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -109,9 +109,9 @@
 
         MultiNam3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 5
-&to 2   &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 4
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &to 5
+&to 2   &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &kp N7  &kp N8  &kp N9  &trans  &to 4
                         &to 0   &trans  &trans                                    &trans  &trans  &to 1
             >;
 
