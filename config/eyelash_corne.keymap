@@ -98,10 +98,10 @@
             label = "2HeyListen";
             display-name = "geg";
             bindings = <
-&none   &kp F1          &kp F2           &kp F3     &kp F4          &kp F5                                       &mmv MOVE_UP                     &kp F6     &kp F7     &kp UP_ARROW    &kp F9           &kp F10          &kp F11
-&trans  &none           &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none      &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp F12
-&trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5        &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &trans     &kp HOME   &kp F8          &kp END          &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                         &to 0      &kp LEFT_SHIFT  &kp SPACE                                                                     &kp ENTER  &kp LCTRL  &to 1
+&kp F1          &kp F2          &kp F3           &kp F4     &kp F5          &kp F6                                       &kp LALT                         &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
+&trans          &none           &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &none      &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &to 4
+&kp SCROLLLOCK  &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5        &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &trans     &kp HOME   &kp F9          &kp END          &none    &to 3
+                                                 &to 0      &kp LEFT_SHIFT  &kp SPACE                                                                     &kp ENTER  &kp LCTRL  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -111,7 +111,7 @@
             bindings = <
 &rgb_ug RGB_COLOR_HSB(183,49,56)  &rgb_ug RGB_COLOR_HSB(303,58,40)  &rgb_ug RGB_COLOR_HSB(309,78,47)  &rgb_ug RGB_COLOR_HSB(192,66,45)  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans                            &trans                            &trans                            &trans                            &trans  &trans            &trans  &none   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans                            &trans                            &trans                            &trans                            &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 2
+&kp PRINTSCREEN                   &kp PAUSE_BREAK                   &trans                            &trans                            &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 2
                                                                                                       &to 0                             &trans  &trans                                    &trans  &trans  &to 1
             >;
 
@@ -121,8 +121,8 @@
         RGB_BLUE {
             display-name = "Colors";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4           &kp N5                                    &mmv MOVE_UP                     &kp N6   &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp A    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp HOME  &kp PG_UP
+&trans  &kp DOT          &kp DOT         &kp DOT       &kp DOT          &kp DOT                                   &mmv MOVE_UP                     &kp DOT  &kp DOT          &kp DOT          &kp N9           &kp N0    &kp BSPC
+&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF           &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp HOME  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &none         &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &none                    &mmv MOVE_DOWN                   &kp A    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &kp END   &kp PG_DN
                                          &to 0         &trans           &trans                                                                     &kp INS  &kp DEL          &to 1
             >;
@@ -140,6 +140,15 @@
             >;
 
             label = "Systerra5";
+        };
+
+        MultiNam {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
