@@ -85,8 +85,8 @@
             display-name = "SYM";
             bindings = <
 &kp DOT     &kp EXCL  &kp AT   &kp HASH  &kp DLLR                      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &holdtap BSPC GRAVE
-&kp DELETE  &kp DOT   &kp DOT  &kp DOT   &kp DOT                       &none                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &to 4
-&kp DOT     &kp DOT   &kp DOT  &kp DOT   &kp DOT                       &none      &kp K_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &to 3
+&kp DELETE  &kp DOT   &kp DOT  &kp DOT   &kp DOT                       &kp DOT                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &to 4
+&kp DOT     &kp DOT   &kp DOT  &kp DOT   &kp DOT                       &kp DOT    &kp K_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &to 3
                                &to 0     &kp LS(LA(LC(LEFT_COMMAND)))  &trans                                                                    &kp ENTER  &kp LEFT_ALT  &to 2
             >;
 
