@@ -29,7 +29,7 @@ layers:
   - R
   - {t: '-', h: /, s: _}
   - '&tdshiftcaps'
-  - AltGr+P
+  - {t: AltGr+P, h: 'AltGr+$$mdi:backspace$$'}
   - J
   - AltGr+Q
   - K
@@ -78,7 +78,7 @@ layers:
   - {t: \, s: '|'}
   - {t: EatMy4ts, h: toggle}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -126,7 +126,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: EatMy4ts, h: toggle}
-  - {t: ., s: '>'}
+  - {t: Symba11, h: toggle}
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
   - '&mkp MB4'
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Symba11, h: toggle}
+  - {t: geg, h: toggle}
   EatMy4ts:
   - RGB COLOR HSB(183,49,56)
   - RGB COLOR HSB(303,58,40)
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Symba11, h: toggle}
+  - {t: geg, h: toggle}
   Systerra5:
   - '&studio_unlock'
   - {t: ., s: '>'}
@@ -282,7 +282,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
+  - '&key_repeat'
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Symba11, h: toggle}
+  - {t: geg, h: toggle}
   R6BB:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -341,4 +341,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: Symba11, h: toggle}
+  - {t: geg, h: toggle}
