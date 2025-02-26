@@ -12,7 +12,7 @@ layers:
   - D
   - L
   - W
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '!', h: '@'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - H
