@@ -29,7 +29,7 @@ layers:
   - R
   - {t: '-', h: /, s: _}
   - '&tdshiftcaps'
-  - {t: AltGr+P, h: 'AltGr+$$mdi:backspace$$'}
+  - {t: AltGr+P, h: '$$mdi:backspace$$'}
   - J
   - AltGr+Q
   - K
