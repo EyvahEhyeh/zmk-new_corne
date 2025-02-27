@@ -143,10 +143,10 @@
         R6BB {
             display-name = "RGBB";
             bindings = <
-&kp DOT  &kp DOT          &kp DOT         &kp DOT       &kp DOT          &kp DOT                              &kp DOT           &kp DOT    &kp DOT          &kp DOT          &kp DOT          &kp DOT  &kp DOT
-&kp DOT  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF             &kp DOT  &kp DOT  &kp DOT  &kp DOT    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp DOT  &kp DOT
-&to 5    &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &kp DOT       &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &kp DOT             &kp DOT           &kp DOT    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &kp DOT  &kp DOT
-                                          &to 0         &trans           &trans                                                 &kp ENTER  &kp DEL          &to 2
+&bt BT_CLR_ALL  &bt BT_CLR       &kp DOT         &kp DOT  &kp DOT          &kp DOT                              &kp DOT           &kp DOT    &kp DOT          &kp DOT          &kp DOT          &kp DOT  &kp DOT
+&bt BT_PRV      &bt BT_NXT       &kp DOT         &kp DOT  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF             &kp DOT  &kp DOT  &kp DOT  &kp DOT    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp DOT  &kp DOT
+&to 5           &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &kp DOT  &rgb_ug RGB_SAD  &rgb_ug RGB_EFR  &kp DOT             &kp DOT           &kp DOT    &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD  &kp DOT  &kp DOT
+                                                 &to 0    &trans           &trans                                                 &kp ENTER  &kp DEL          &to 2
             >;
 
             sensor-bindings = <&scroll_encoder>;
