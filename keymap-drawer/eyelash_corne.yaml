@@ -58,10 +58,10 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
-  - '*'
+  - {t: ., s: '>'}
   - (
   - )
-  - {t: '`', h: '$$mdi:backspace$$', s: '~'}
+  - {t: ., s: '>'}
   - $$mdi:backspace-reverse-outline$$
   - {t: ., s: '>', type: held}
   - {t: ., s: '>'}
@@ -71,8 +71,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
@@ -85,8 +85,8 @@ layers:
   - {t: ., s: '>'}
   - MUTE
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
-  - +
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - '{'
   - '}'
   - '|'
@@ -124,7 +124,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - {t: EatMy4ts, h: toggle}
   - {t: Symba11, h: toggle}
   - $$mdi:pan-left$$
@@ -138,7 +138,7 @@ layers:
   - HOME
   - F9
   - END
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
   - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -161,10 +161,10 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>', type: held}
-  - {t: ., s: '>'}
+  - {t: '-', s: _}
+  - KP DIVIDE
+  - {t: +, type: held}
+  - {t: '=', s: +}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
