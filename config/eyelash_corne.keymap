@@ -64,6 +64,14 @@
             bindings = <&kp LA(LS(PRINTSCREEN))>;
             label = "ZMISC_HIGHCONTRAST";
         };
+
+        MacParagrafzeichen: MacParagrafzeichen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp N0 &kp N1 &kp N6 &kp N7>;
+
+            label = "MACPARAGRAFZEICHEN";
+        };
     };
 
     keymap {
@@ -84,10 +92,10 @@
         S1M {
             display-name = "SYM";
             bindings = <
-&kp DOT     &kp EXCL       &kp AT   &kp HASH  &kp DLLR                      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp DOT   &kp LPAR  &kp RPAR  &kp DOT
-&kp DELETE  &kp DOT        &kp DOT  &kp DOT   &kp DOT                       &kp DOT                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp DOT       &kp LBKT  &kp RBKT  &kp BSLH  &to 4
-&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT   &kp DOT                       &kp DOT    &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT       &kp LBRC  &kp RBRC  &kp PIPE  &to 3
-                                    &to 0     &kp LS(LA(LC(LEFT_COMMAND)))  &trans                                                                    &kp ENTER  &kp LEFT_ALT  &to 2
+&kp DOT     &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT              &kp DOT                   &kp DOT
+&kp DELETE  &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &holdtap PIPE2 PIPE  &holdtap AMPERSAND CARET  &to 4
+&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT  &kp DOT                                       &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT              &kp DOT             &kp DOT              &kp DOT                   &to 3
+                                    &to 0    &holdtap LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT         &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -109,10 +117,10 @@
 
         MultiNam3 {
             bindings = <
-&kp DOT  &kp DOT    &kp DOT        &kp DOT   &kp DOT    &kp DOT                      &kp DOT           &kp N0      &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
-&kp DOT  &kp MINUS  &kp KP_DIVIDE  &kp PLUS  &kp EQUAL  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp DOT  &to 5
-&to 2    &kp DOT    &kp DOT        &kp DOT   &kp DOT    &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
-                                   &to 0     &trans     &trans                                         &trans      &trans  &to 2
+&kp DOT  &kp DOT              &kp DOT                  &kp DOT                &kp DOT    &kp DOT                      &kp DOT           &kp DOT     &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
+&kp DOT  &holdtap HASH MINUS  &holdtap DLLR KP_DIVIDE  &holdtap PERCENT PLUS  &kp EQUAL  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp N0   &to 5
+&to 2    &kp DOT              &kp DOT                  &kp DOT                &kp DOT    &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
+                                                       &to 0                  &trans     &trans                                         &trans      &trans  &to 2
             >;
 
             label = "MultiNam3";
