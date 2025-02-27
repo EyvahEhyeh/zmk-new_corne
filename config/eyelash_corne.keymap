@@ -84,9 +84,9 @@
         S1M {
             display-name = "SYM";
             bindings = <
-&kp DOT     &kp EXCL       &kp AT   &kp HASH  &kp DLLR                      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &holdtap BSPC GRAVE
-&kp DELETE  &kp DOT        &kp DOT  &kp DOT   &kp DOT                       &kp DOT                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &to 4
-&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT   &kp DOT                       &kp DOT    &kp K_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &to 3
+&kp DOT     &kp EXCL       &kp AT   &kp HASH  &kp DLLR                      &kp PRCNT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp DOT   &kp LPAR  &kp RPAR  &kp DOT
+&kp DELETE  &kp DOT        &kp DOT  &kp DOT   &kp DOT                       &kp DOT                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &kp DOT       &kp LBKT  &kp RBKT  &kp BSLH  &to 4
+&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT   &kp DOT                       &kp DOT    &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT       &kp LBRC  &kp RBRC  &kp PIPE  &to 3
                                     &to 0     &kp LS(LA(LC(LEFT_COMMAND)))  &trans                                                                    &kp ENTER  &kp LEFT_ALT  &to 2
             >;
 
@@ -99,8 +99,8 @@
             display-name = "geg";
             bindings = <
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
-&kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &to 4
-&to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5   &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT    &kp HOME   &kp F9          &kp END          &none    &to 3
+&kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOT  &to 4
+&to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5   &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT    &kp HOME   &kp F9          &kp END          &kp DOT  &to 3
                                                  &to 0      &trans     &trans                                                                        &kp ENTER  &kp LCTRL  &to 1
             >;
 
@@ -109,10 +109,10 @@
 
         MultiNam3 {
             bindings = <
-&kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT                      &kp DOT           &kp N0      &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
-&kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp DOT  &to 5
-&to 2    &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
-                           &to 0    &trans   &trans                                         &trans      &trans  &to 2
+&kp DOT  &kp DOT    &kp DOT        &kp DOT   &kp DOT    &kp DOT                      &kp DOT           &kp N0      &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
+&kp DOT  &kp MINUS  &kp KP_DIVIDE  &kp PLUS  &kp EQUAL  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp DOT  &to 5
+&to 2    &kp DOT    &kp DOT        &kp DOT   &kp DOT    &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
+                                   &to 0     &trans     &trans                                         &trans      &trans  &to 2
             >;
 
             label = "MultiNam3";
