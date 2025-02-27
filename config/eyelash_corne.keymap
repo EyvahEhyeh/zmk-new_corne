@@ -90,7 +90,7 @@
         };
 
         S1M {
-            display-name = "SYM";
+            display-name = "Symba11";
             bindings = <
 &kp DOT     &kp DOT        &kp DOT  &kp DOT           &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT              &kp DOT                   &kp DOT
 &kp DELETE  &kp DOT        &kp DOT  &kp DOT           &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &holdtap PIPE2 PIPE  &holdtap AMPERSAND CARET  &to 4
@@ -107,7 +107,7 @@
 
         Nav2 {
             label = "2HeyListen";
-            display-name = "geg";
+            display-name = "2HeyListen";
             bindings = <
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
 &kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOT  &to 4
@@ -152,7 +152,7 @@
         };
 
         R6BB {
-            display-name = "RGBB";
+            display-name = "R6BB";
             bindings = <
 &bt BT_CLR_ALL  &bt BT_CLR       &kp DOT         &kp DOT  &kp DOT          &kp DOT                              &kp DOT           &kp DOT    &kp DOT          &kp DOT          &kp DOT          &kp DOT  &kp DOT
 &bt BT_PRV      &bt BT_NXT       &kp DOT         &kp DOT  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF             &kp DOT  &kp DOT  &kp DOT  &kp DOT    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp DOT  &kp DOT
