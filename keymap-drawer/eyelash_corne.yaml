@@ -91,7 +91,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: SveaHej}
+  - {t: MO(0), h: Meh+LGUI}
   - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -196,10 +196,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: geg, h: toggle}
   EatMy4ts:
-  - RGB COLOR HSB(183,49,56)
-  - RGB COLOR HSB(303,58,40)
-  - RGB COLOR HSB(309,78,47)
-  - RGB COLOR HSB(192,66,45)
+  - RGB colour HSB(183,49,56)
+  - RGB colour HSB(303,58,40)
+  - RGB colour HSB(309,78,47)
+  - RGB colour HSB(192,66,45)
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
