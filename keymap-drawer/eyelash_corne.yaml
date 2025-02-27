@@ -50,17 +50,17 @@ layers:
   - {t: Symba11, h: toggle}
   Symba11:
   - {t: ., s: '>'}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - ^
-  - '&'
   - {t: ., s: '>'}
-  - (
-  - )
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: ., s: '>'}
+  - '&MacParagrafzeichen'
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: ., s: '>'}
   - $$mdi:backspace-reverse-outline$$
   - {t: ., s: '>', type: held}
@@ -72,10 +72,10 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - {t: (, h: '['}
+  - {t: ), h: ']'}
+  - {t: '|', h: '|'}
+  - {t: ^, h: '&'}
   - {t: EatMy4ts, h: toggle}
   - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -87,12 +87,12 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - '{'
-  - '}'
-  - '|'
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
   - {t: SveaHej, h: toggle}
-  - Meh+$$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
@@ -154,16 +154,16 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: '0', s: )}
+  - {t: ., s: '>'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: '-', s: _}
-  - KP DIVIDE
-  - {t: +, type: held}
+  - {t: '-', h: '#', s: _}
+  - {t: KP DIVIDE, h: $}
+  - {t: +, h: '%', type: held}
   - {t: '=', s: +}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -173,7 +173,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: ., s: '>'}
+  - {t: '0', s: )}
   - {t: Systerra5, h: toggle}
   - {t: geg, h: toggle}
   - {t: ., s: '>'}
