@@ -15,7 +15,7 @@ layers:
   - {t: '!', h: '@'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: Symba11}
-  - {t: H, h: geg}
+  - {t: H, h: 2HeyListen}
   - {t: E, h: MultiNam3}
   - {t: E, h: EatMy4ts}
   - {t: ',', h: ;, s: <}
@@ -96,8 +96,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
-  - {t: geg, h: toggle}
-  geg:
+  - {t: 2HeyListen, h: toggle}
+  2HeyListen:
   - F1
   - F2
   - F3
@@ -175,7 +175,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '0', s: )}
   - {t: Systerra5, h: toggle}
-  - {t: geg, h: toggle}
+  - {t: 2HeyListen, h: toggle}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: geg, h: toggle}
+  - {t: 2HeyListen, h: toggle}
   EatMy4ts:
   - RGB colour HSB(183,49,56)
   - RGB colour HSB(303,58,40)
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: geg, h: toggle}
+  - {t: 2HeyListen, h: toggle}
   Systerra5:
   - '&studio_unlock'
   - {t: ., s: '>'}
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: geg, h: toggle}
+  - {t: 2HeyListen, h: toggle}
   R6BB:
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
@@ -341,4 +341,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: geg, h: toggle}
+  - {t: 2HeyListen, h: toggle}
