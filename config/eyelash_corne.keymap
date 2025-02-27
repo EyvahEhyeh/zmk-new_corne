@@ -72,10 +72,10 @@
         Zer0 {
             display-name = "SveaHej";
             bindings = <
-&kp TAB        &kp RA(W)                 &kp P  &kp O                                        &kp U           &kp Y                                                          &kp UP               &kp Q      &kp G      &kp D  &kp L  &kp W         &holdtap AT_SIGN EXCL
-&kp BACKSPACE  &kp A                     &kp H  &kp E                                        &kp I           &holdtap SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S      &kp T  &kp N  &kp R         &holdtap SLASH MINUS
-&tdshiftcaps   &holdtap BACKSPACE RA(P)  &kp J  &kp RA(Q)                                    &kp K           &holdtap COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C      &kp M  &kp V  &holdtap Z X  &holdtap ASTRK APOS
-                                                &holdtap LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &sk LEFT_SHIFT  &holdtap LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &sk LCTRL  &to 1
+&kp TAB        &kp RA(W)                 &kp P    &kp O                                        &kp U           &kp Y                                                          &kp UP               &kp Q      &kp G      &kp D  &kp L  &kp W         &holdtap AT_SIGN EXCL
+&kp BACKSPACE  &lt 1 A                   &lt 2 H  &lt 3 E                                      &lt 4 E         &holdtap SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S      &kp T  &kp N  &kp R         &holdtap SLASH MINUS
+&tdshiftcaps   &holdtap BACKSPACE RA(P)  &kp J    &kp RA(Q)                                    &kp K           &holdtap COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C      &kp M  &kp V  &holdtap Z X  &holdtap ASTRK APOS
+                                                  &holdtap LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &sk LEFT_SHIFT  &holdtap LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &sk LCTRL  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
