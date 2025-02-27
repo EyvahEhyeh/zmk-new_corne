@@ -95,7 +95,10 @@
 &kp DOT     &kp DOT        &kp DOT  &kp DOT           &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT              &kp DOT                   &kp DOT
 &kp DELETE  &kp DOT        &kp DOT  &kp DOT           &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &holdtap PIPE2 PIPE  &holdtap AMPERSAND CARET  &to 4
 &kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT           &kp DOT                                       &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT              &kp DOT             &kp DOT              &kp DOT                   &to 3
-                                    &lt 0 LEFT_SHIFT  &holdtap LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT         &to 2
+                                    &holdtap LC(LS(LA(LGUI))) MO(0)
+&holdtap LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT
+&trans
+                                                                  &kp ENTER  &kp LEFT_ALT         &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -128,7 +131,7 @@
 
         EatMy4ts {
             bindings = <
-&rgb_ug RGB_COLOR_HSB(183,49,56)  &rgb_ug RGB_COLOR_HSB(303,58,40)  &rgb_ug RGB_COLOR_HSB(309,78,47)  &rgb_ug RGB_COLOR_HSB(192,66,45)  &kp DOT  &kp DOT                      &kp DOT           &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT
+&rgb_ug RGB_colour_HSB(183,49,56)&rgb_ug RGB_colour_HSB(303,58,40)&rgb_ug RGB_colour_HSB(309,78,47)&rgb_ug RGB_colour_HSB(192,66,45)&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT
 &kp DOT                           &kp DOT                           &kp DOT                           &kp DOT                           &kp DOT  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &to 6
 &to 3                             &kp PAUSE_BREAK                   &kp PRINTSCREEN                   &kp DOT                           &kp DOT  &kp DOT  &kp DOT             &kp DOT           &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &to 5
                                                                                                       &to 0                             &trans   &trans                                         &trans   &trans   &to 2
