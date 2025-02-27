@@ -99,7 +99,7 @@
             display-name = "geg";
             bindings = <
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
-&kp SCROLLLOCK  &kp DOT         &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &to 4
+&kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &to 4
 &to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5   &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT    &kp HOME   &kp F9          &kp END          &none    &to 3
                                                  &to 0      &trans     &trans                                                                        &kp ENTER  &kp LCTRL  &to 1
             >;
