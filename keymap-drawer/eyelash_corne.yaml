@@ -14,10 +14,10 @@ layers:
   - W
   - {t: '!', h: '@'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - A
-  - H
-  - E
-  - I
+  - {t: A, h: Symba11}
+  - {t: H, h: geg}
+  - {t: E, h: MultiNam3}
+  - {t: E, h: EatMy4ts}
   - {t: ',', h: ;, s: <}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -63,7 +63,7 @@ layers:
   - )
   - {t: '`', h: '$$mdi:backspace$$', s: '~'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: ., s: '>'}
+  - {t: ., s: '>', type: held}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -113,7 +113,7 @@ layers:
   - F12
   - SCROLLLOCK
   - $$mdi:keyboard-esc$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
   - PgUp
@@ -163,7 +163,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
+  - {t: ., s: '>', type: held}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -213,7 +213,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
+  - {t: ., s: '>', type: held}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
