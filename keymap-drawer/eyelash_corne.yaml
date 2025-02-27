@@ -294,23 +294,23 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: geg, h: toggle}
   R6BB:
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
   - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: ., s: '>'}
+  - {t: ., s: '>'}
   - RGB SAI
   - RGB EFF
   - {t: ., s: '>'}
