@@ -91,7 +91,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
-  - {t: SveaHej, h: toggle}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: SveaHej}
   - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
