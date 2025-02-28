@@ -76,7 +76,7 @@
 
     keymap {
         compatible = "zmk,keymap";
-
+ layout = "default_layout";
         Zer0 {
             display-name = "SveaHej";
             bindings = <
