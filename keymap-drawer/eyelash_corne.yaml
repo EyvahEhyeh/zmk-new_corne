@@ -28,7 +28,7 @@ layers:
   - N
   - R
   - {t: '-', h: /, s: _}
-  - '&tdshiftcaps'
+  - $$mdi:apple-keyboard-shift$$
   - {t: AltGr+P, h: '$$mdi:backspace$$'}
   - J
   - AltGr+Q
@@ -42,7 +42,7 @@ layers:
   - V
   - {t: X, h: Z}
   - {t: ., h: '*'}
-  - {t: '$$mdi:backspace$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -92,7 +92,7 @@ layers:
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
   - {t: SveaHej, h: toggle}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - '&holdtap LCTRL BACKSPACE LEFT_SHIFT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
