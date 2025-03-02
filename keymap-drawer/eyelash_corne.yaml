@@ -14,10 +14,10 @@ layers:
   - W
   - {t: '!', h: '@'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: A, h: Symba11}
+  - {t: A, h: SYM}
   - {t: H, h: geg}
   - {t: E, h: MultiNam3}
-  - {t: E, h: EatMy4ts}
+  - {t: I, h: EatMy4ts}
   - {t: ',', h: ;, s: <}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -47,8 +47,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: Symba11, h: toggle}
-  Symba11:
+  - {t: SYM, h: toggle}
+  SYM:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -74,7 +74,7 @@ layers:
   - {t: ., s: '>'}
   - {t: (, h: '['}
   - {t: ), h: ']'}
-  - {t: '|', h: '|'}
+  - A
   - {t: ^, h: '&'}
   - {t: EatMy4ts, h: toggle}
   - {t: ., s: '>'}
@@ -126,7 +126,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: ., s: '>'}
   - {t: EatMy4ts, h: toggle}
-  - {t: Symba11, h: toggle}
+  - {t: SYM, h: toggle}
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
   - '&mkp MB4'
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
-  - {t: Symba11, h: toggle}
+  - {t: SYM, h: toggle}
   MultiNam3:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
