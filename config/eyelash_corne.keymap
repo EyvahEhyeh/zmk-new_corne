@@ -90,15 +90,12 @@
         };
 
         S1M {
-            display-name = "Symba11";
+            display-name = "SYM";
             bindings = <
-&kp DOT     &kp DOT        &kp DOT  &kp DOT           &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT              &kp DOT                   &kp DOT
-&kp DELETE  &kp DOT        &kp DOT  &kp DOT           &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &holdtap PIPE2 PIPE  &holdtap AMPERSAND CARET  &to 4
-&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT           &kp DOT                                       &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT              &kp DOT             &kp DOT              &kp DOT                   &to 3
-                                    &holdtap LC(LS(LA(LGUI))) MO(0)
-&holdtap LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT
-&trans
-                                                                  &kp ENTER  &kp LEFT_ALT         &to 2
+&kp DOT     &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT              &kp DOT                   &kp DOT
+&kp DELETE  &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &holdtap PIPE2 PIPE  &holdtap AMPERSAND CARET  &to 4
+&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT  &kp DOT                                       &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT              &kp DOT             &kp DOT              &kp DOT                   &to 3
+                                    &to 0    &holdtap LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT         &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -107,7 +104,7 @@
 
         Nav2 {
             label = "2HeyListen";
-            display-name = "2HeyListen";
+            display-name = "geg";
             bindings = <
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
 &kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOT  &to 4
@@ -131,7 +128,7 @@
 
         EatMy4ts {
             bindings = <
-&rgb_ug RGB_colour_HSB(183,49,56)&rgb_ug RGB_colour_HSB(303,58,40)&rgb_ug RGB_colour_HSB(309,78,47)&rgb_ug RGB_colour_HSB(192,66,45)&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT&kp DOT
+&rgb_ug RGB_COLOR_HSB(183,49,56)  &rgb_ug RGB_COLOR_HSB(303,58,40)  &rgb_ug RGB_COLOR_HSB(309,78,47)  &rgb_ug RGB_COLOR_HSB(192,66,45)  &kp DOT  &kp DOT                      &kp DOT           &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT
 &kp DOT                           &kp DOT                           &kp DOT                           &kp DOT                           &kp DOT  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &to 6
 &to 3                             &kp PAUSE_BREAK                   &kp PRINTSCREEN                   &kp DOT                           &kp DOT  &kp DOT  &kp DOT             &kp DOT           &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &to 5
                                                                                                       &to 0                             &trans   &trans                                         &trans   &trans   &to 2
@@ -152,7 +149,7 @@
         };
 
         R6BB {
-            display-name = "R6BB";
+            display-name = "RGBB";
             bindings = <
 &bt BT_CLR_ALL  &bt BT_CLR       &kp DOT         &kp DOT  &kp DOT          &kp DOT                              &kp DOT           &kp DOT    &kp DOT          &kp DOT          &kp DOT          &kp DOT  &kp DOT
 &bt BT_PRV      &bt BT_NXT       &kp DOT         &kp DOT  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF             &kp DOT  &kp DOT  &kp DOT  &kp DOT    &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &kp DOT  &kp DOT
