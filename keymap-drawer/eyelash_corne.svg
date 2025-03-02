@@ -385,8 +385,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">H</text>
-<a href="#HeyListen">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="24" class="key hold layer-activator">geg</text>
 </a></g>
 <g transform="translate(196, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -830,8 +830,9 @@ rect.held, rect.combo.held {
 <g transform="translate(224, 203)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">MO(0)</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 75%">Meh+LGUI</tspan></text>
+<a href="#SveaHej">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 86%">SveaHej</tspan></text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -857,14 +858,14 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HeyListen">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="-4" class="key tap layer-activator">geg</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(40, 637)" class="layer-2HeyListen">
-<text x="0" y="28" class="label" id="HeyListen">2HeyListen:</text>
+<g transform="translate(40, 637)" class="layer-geg">
+<text x="0" y="28" class="label" id="geg">geg:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1306,8 +1307,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 161)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HeyListen">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="-4" class="key tap layer-activator">geg</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-29">
@@ -1419,8 +1420,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HeyListen">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="-4" class="key tap layer-activator">geg</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
@@ -1432,28 +1433,28 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">colour</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(183,4…</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(183,4…</tspan>
 </text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">colour</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(303,5…</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(303,5…</tspan>
 </text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">colour</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(309,7…</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(309,7…</tspan>
 </text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">colour</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(192,6…</tspan>
+<tspan x="0" dy="-1.2em" style="font-size: 60%">RGB</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">COLOR</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">HSB(192,6…</tspan>
 </text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
@@ -1717,8 +1718,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HeyListen">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="-4" class="key tap layer-activator">geg</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
@@ -2007,8 +2008,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HeyListen">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="-4" class="key tap layer-activator">geg</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>
@@ -2311,8 +2312,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#HeyListen">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">2HeyListen</tspan></text>
+<a href="#geg">
+<text x="0" y="-4" class="key tap layer-activator">geg</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 </g>

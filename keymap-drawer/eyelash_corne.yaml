@@ -15,7 +15,7 @@ layers:
   - {t: '!', h: '@'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: Symba11}
-  - {t: H, h: 2HeyListen}
+  - {t: H, h: geg}
   - {t: E, h: MultiNam3}
   - {t: E, h: EatMy4ts}
   - {t: ',', h: ;, s: <}
@@ -91,13 +91,13 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
-  - {t: MO(0), h: Meh+LGUI}
+  - {t: SveaHej, h: toggle}
   - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
-  - {t: 2HeyListen, h: toggle}
-  2HeyListen:
+  - {t: geg, h: toggle}
+  geg:
   - F1
   - F2
   - F3
@@ -175,7 +175,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '0', s: )}
   - {t: Systerra5, h: toggle}
-  - {t: 2HeyListen, h: toggle}
+  - {t: geg, h: toggle}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -194,12 +194,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 2HeyListen, h: toggle}
+  - {t: geg, h: toggle}
   EatMy4ts:
-  - RGB colour HSB(183,49,56)
-  - RGB colour HSB(303,58,40)
-  - RGB colour HSB(309,78,47)
-  - RGB colour HSB(192,66,45)
+  - RGB COLOR HSB(183,49,56)
+  - RGB COLOR HSB(303,58,40)
+  - RGB COLOR HSB(309,78,47)
+  - RGB COLOR HSB(192,66,45)
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -243,7 +243,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 2HeyListen, h: toggle}
+  - {t: geg, h: toggle}
   Systerra5:
   - '&studio_unlock'
   - {t: ., s: '>'}
@@ -292,7 +292,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: 2HeyListen, h: toggle}
+  - {t: geg, h: toggle}
   R6BB:
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
@@ -341,4 +341,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: 2HeyListen, h: toggle}
+  - {t: geg, h: toggle}
