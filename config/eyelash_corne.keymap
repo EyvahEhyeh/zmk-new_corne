@@ -81,7 +81,7 @@
             display-name = "SveaHej";
             bindings = <
 &kp TAB        &kp RA(W)                 &kp P    &kp O                                        &kp U           &kp Y                                                          &kp UP               &kp Q      &kp G      &kp D  &kp L  &kp W         &holdtap AT_SIGN EXCL
-&kp BACKSPACE  &lt 1 A                   &lt 2 H  &lt 3 E                                      &lt 4 E         &holdtap SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S      &kp T  &kp N  &kp R         &holdtap SLASH MINUS
+&kp BACKSPACE  &lt 1 A                   &lt 2 H  &lt 3 E                                      &lt 4 I         &holdtap SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S      &kp T  &kp N  &kp R         &holdtap SLASH MINUS
 &tdshiftcaps   &holdtap BACKSPACE RA(P)  &kp J    &kp RA(Q)                                    &kp K           &holdtap COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C      &kp M  &kp V  &holdtap Z X  &holdtap ASTRK APOS
                                                   &holdtap LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &sk LEFT_SHIFT  &holdtap LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &sk LCTRL  &to 1
             >;
@@ -92,18 +92,17 @@
         S1M {
             display-name = "SYM";
             bindings = <
-&kp DOT     &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT              &kp DOT                   &kp DOT
-&kp DELETE  &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &holdtap PIPE2 PIPE  &holdtap AMPERSAND CARET  &to 4
-&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT  &kp DOT                                       &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT              &kp DOT             &kp DOT              &kp DOT                   &to 3
+&kp DOT     &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen  &kp DOT             &kp DOT  &kp DOT                   &kp DOT
+&kp DELETE  &kp DOT        &kp DOT  &kp DOT  &kp DOT                                       &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap LBKT LPAR   &holdtap RBKT RPAR  &kp A    &holdtap AMPERSAND CARET  &to 4
+&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT  &kp DOT                                       &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT              &kp DOT             &kp DOT  &kp DOT                   &to 3
                                     &to 0    &holdtap LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT         &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
-            label = "Symba11";
         };
 
-        Nav2 {
-            label = "2HeyListen";
+        Navii {
+            label = "HeyListen";
             display-name = "geg";
             bindings = <
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
