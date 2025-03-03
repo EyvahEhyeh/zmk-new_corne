@@ -47,8 +47,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-control$$', h: '&key_repeat'}
-  - {t: SYM, h: toggle}
-  SYM:
+  - {t: S1M, h: toggle}
+  S1M:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -76,7 +76,7 @@ layers:
   - {t: ), h: ']'}
   - A
   - {t: ^, h: '&'}
-  - {t: EatMy4ts, h: toggle}
+  - .
   - {t: SveaHej, h: toggle}
   - .
   - {t: ., s: '>'}
@@ -90,14 +90,14 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: MultiNam3, h: toggle}
+  - {t: HeyListenjj, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SveaHej, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HeyListen, h: toggle}
-  HeyListen:
+  HeyListenjj:
   - F1
   - F2
   - F3
@@ -124,9 +124,9 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: ., s: '>'}
-  - {t: Systerra5, h: toggle}
-  - {t: SYM, h: toggle}
+  - $$mdi:pan-up$$
+  - .
+  - {t: S1M, h: toggle}
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
   - '&mkp MB4'
@@ -138,15 +138,15 @@ layers:
   - HOME
   - F9
   - END
-  - {t: ., s: '>'}
-  - {t: EatMy4ts, h: toggle}
+  - $$mdi:pan-down$$
+  - {t: Nam3, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
-  - {t: MultiNam3, h: toggle}
-  MultiNam3:
+  - {t: S1M, h: toggle}
+  Nam3:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
@@ -174,8 +174,8 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '0', s: )}
-  - {t: Systerra5, h: toggle}
-  - {t: HeyListen, h: toggle}
+  - .
+  - {t: HeyListenjj, h: toggle}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -188,14 +188,14 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: ., s: '>'}
-  - {t: EatMy4ts, h: toggle}
+  - {t: Fyr, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HeyListen, h: toggle}
-  EatMy4ts:
+  - {t: S1M, h: toggle}
+  Fyr:
   - RGB COLOR HSB(183,49,56)
   - RGB COLOR HSB(303,58,40)
   - RGB COLOR HSB(309,78,47)
@@ -223,8 +223,8 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: R6BB, h: toggle}
-  - {t: MultiNam3, h: toggle}
+  - .
+  - {t: Nam3, h: toggle}
   - PAUSE BREAK
   - PRINTSCREEN
   - {t: ., s: '>'}
@@ -237,14 +237,14 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: Systerra5, h: toggle}
+  - {t: SY5, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HeyListen, h: toggle}
-  Systerra5:
+  - {t: S1M, h: toggle}
+  SY5:
   - '&studio_unlock'
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -273,7 +273,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: EatMy4ts, h: toggle}
+  - {t: Fyr, h: toggle}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -287,12 +287,12 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: R6BB, h: toggle}
-  - {t: SveaHej, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HeyListen, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: S1M, h: toggle}
   R6BB:
   - BT CLR ALL
   - $$mdi:bluetooth-off$$
@@ -322,7 +322,7 @@ layers:
   - RGB HUI
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: Systerra5, h: toggle}
+  - {t: SY5, h: toggle}
   - RGB TOG
   - .
   - {t: ., s: '>'}
@@ -336,12 +336,12 @@ layers:
   - RGB HUD
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: SveaHej, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: HeyListen, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: S1M, h: toggle}
 combos:
 - p: [2, 3]
   k: RGB TOG
@@ -350,8 +350,10 @@ combos:
 - p: [1, 2, 3]
   k: .
 - p: [47, 23]
-  k: {t: HeyListen, h: toggle}
+  k: {t: HeyListenjj, h: toggle}
 - p: [47, 23, 24]
-  k: {t: MultiNam3, h: toggle}
+  k: {t: Nam3, h: toggle}
 - p: [47, 23, 24, 25]
-  k: {t: EatMy4ts, h: toggle}
+  k: {t: Fyr, h: toggle}
+- p: [47, 23, 24, 25, 26]
+  k: {t: SY5, h: toggle}
