@@ -104,22 +104,14 @@
             tapping-term-ms = <200>;
         };
 
-        new_behavior: new_behavior {
+        holdtap_KrStickkp_500ms_tappref: holdtap_KrStickkp_500ms_tappref {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            bindings = <&sticky_key_5k_qe_lz_moddis>, <&none>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
-        holdtap_krstick_holdpref: holdtap_krstick_holdpref {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KRSTICK_HOLDPREF";
+            label = "HOLDTAP_KRSTICKKP_500MS_TAPPREF";
             bindings = <&key_repeat>, <&sticky_kp_5000ms>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <500>;
+            flavor = "tap-preferred";
         };
 
         sticky_kp_5000ms: sticky_kp_5000ms {
@@ -128,6 +120,16 @@
             bindings = <&kp>;
             #binding-cells = <1>;
             release-after-ms = <5000>;
+        };
+
+        holdtap_stickytd_kp_td: holdtap_stickytd_kp_td {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDTAP_STICKYTD_KP_TD (shiftcaps)";
+            bindings = <&sticky_kp_5000ms>, <&td_kpkp_200ms_shiftcaps>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
     };
 
@@ -190,10 +192,10 @@
         Zer0 {
             display-name = "SveaHej";
             bindings = <
-&kp TAB                   &kp RA(W)                            &kp P    &kp O                                                      &kp U           &kp Y                                                                        &kp UP               &kp Q      &kp G                              &kp D  &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
-&kp BACKSPACE             &lt 1 A                              &lt 2 H  &lt 3 E                                                    &lt 4 I         &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S                              &kp T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
-&td_kpkp_200ms_shiftcaps  &holdtap_kpkp_holdpref PERIOD RA(P)  &kp J    &kp RA(Q)                                                  &kp K           &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                              &kp M  &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
-                                                                        &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &sk LEFT_SHIFT  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_krstick_holdpref 0 LCTRL  &to 1
+&kp TAB                   &kp RA(W)                            &kp P    &kp O                                                      &kp U                                 &kp Y                                                                        &kp UP               &kp Q      &kp G                                     &kp D  &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
+&kp BACKSPACE             &lt 1 A                              &lt 2 H  &lt 3 E                                                    &lt 4 I                               &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S                                     &kp T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
+&td_kpkp_200ms_shiftcaps  &holdtap_kpkp_holdpref PERIOD RA(P)  &kp J    &kp RA(Q)                                                  &kp K                                 &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                                     &kp M  &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
+                                                                        &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &holdtap_stickytd_kp_td LEFT_SHIFT 0  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_KrStickkp_500ms_tappref 0 LCTRL  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
