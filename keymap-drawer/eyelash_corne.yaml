@@ -28,8 +28,8 @@ layers:
   - N
   - R
   - {t: '-', h: /, s: _}
-  - '&td_shiftcaps'
-  - {t: AltGr+P, h: '$$mdi:backspace$$'}
+  - '&td_kpkp_200ms_shiftcaps'
+  - {t: AltGr+P, h: .}
   - J
   - AltGr+Q
   - K
@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '&key_repeat'}
   - {t: SYM, h: toggle}
   SYM:
   - {t: ., s: '>'}
@@ -91,7 +91,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
-  - {t: SveaHej, h: toggle}
+  - {t: SveaHej, h: Meh+LEFT WIN}
   - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -140,7 +140,7 @@ layers:
   - END
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
-  - {t: SveaHej, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -189,7 +189,7 @@ layers:
   - {t: '9', s: (}
   - {t: ., s: '>'}
   - {t: EatMy4ts, h: toggle}
-  - {t: SveaHej, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -238,7 +238,7 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: Systerra5, h: toggle}
-  - {t: SveaHej, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
