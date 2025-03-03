@@ -43,7 +43,7 @@ layers:
   - {t: X, h: Z}
   - {t: ., h: '*'}
   - {t: '$$mdi:backspace$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
-  - {t: '&td_kpkp_200ms_shiftcaps', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '&td_kpkp_300ms_shiftcaps', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-control$$', h: '&key_repeat'}
@@ -77,7 +77,7 @@ layers:
   - A
   - {t: ^, h: '&'}
   - {t: EatMy4ts, h: toggle}
-  - {t: ., s: '>'}
+  - {t: SveaHej, h: toggle}
   - .
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -91,11 +91,11 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: MultiNam3, h: toggle}
-  - {t: SveaHej, h: Meh+LEFT WIN}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-option$$
+  - {t: SveaHej, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: geg, h: toggle}
   geg:
   - F1
@@ -125,7 +125,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: ., s: '>'}
-  - {t: EatMy4ts, h: toggle}
+  - {t: Systerra5, h: toggle}
   - {t: SYM, h: toggle}
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
@@ -139,13 +139,13 @@ layers:
   - F9
   - END
   - {t: ., s: '>'}
-  - {t: MultiNam3, h: toggle}
+  - {t: EatMy4ts, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
-  - {t: SYM, h: toggle}
+  - {t: MultiNam3, h: toggle}
   MultiNam3:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -349,3 +349,9 @@ combos:
   k: .
 - p: [1, 2, 3]
   k: .
+- p: [47, 23]
+  k: {t: geg, h: toggle}
+- p: [47, 23, 24]
+  k: {t: MultiNam3, h: toggle}
+- p: [47, 23, 24, 25]
+  k: {t: EatMy4ts, h: toggle}
