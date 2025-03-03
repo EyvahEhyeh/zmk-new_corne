@@ -34,13 +34,14 @@
 
 / {
     behaviors {
-        td_kpkp_200ms_shiftcaps: td_kpkp_200ms_shiftcaps {
+        td_kpkp_300ms_shiftcaps: td_kpkp_300ms_shiftcaps {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 
-            label = "td_kpkp_200ms_shiftcaps";
+            label = "TD_KPKP_300MS_SHIFTCAPS";
+            tapping-term-ms = <300>;
         };
 
         holdtap_kpkp_holdpref: holdtap_kpkp_holdpref {
@@ -84,9 +85,9 @@
             flavor = "balanced";
         };
 
-        holdtap_kpkp_tappref: holdtap_kpkp_bal_tappref {
+        holdtap_kpkp_tappref: holdtap_kpkp_tappref {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KPKP_BAL_TAPPREF (for homerow mods)";
+            label = "holdtap_kpkp_tappref (for homerow mods)";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -106,30 +107,30 @@
 
         holdtap_KrStickkp_500ms_tappref: holdtap_KrStickkp_500ms_tappref {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KRSTICKKP_500MS_TAPPREF";
-            bindings = <&key_repeat>, <&sticky_kp_5000ms>;
+            label = "holdtap_KrStickkp_500ms_tappref";
+            bindings = <&key_repeat>, <&sticky_kp_1000ms>;
 
             #binding-cells = <2>;
             tapping-term-ms = <500>;
             flavor = "tap-preferred";
         };
 
-        sticky_kp_5000ms: sticky_kp_5000ms {
+        sticky_kp_1000ms: sticky_kp_1000ms {
             compatible = "zmk,behavior-sticky-key";
-            label = "STICKY_KP_5000MS";
+            label = "STICKY_KP_1000MS";
             bindings = <&kp>;
             #binding-cells = <1>;
-            release-after-ms = <5000>;
+            release-after-ms = <1000>;
         };
 
-        holdtap_sticktd_stickkp_tdshica: holdtap_stickytd_kp_td {
+        holdtap_sticktd_stickkp_tdshica: holdtap_sticktd_stickkp_tdshica {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_STICKYTD_KP_TD (shiftcaps)";
-            bindings = <&sticky_kp_5000ms>, <&td_kpkp_200ms_shiftcaps>;
+            label = "holdtap_sticktd_stickkp_tdshica (shiftcaps)";
+            bindings = <&sticky_kp_1000ms>, <&td_kpkp_300ms_shiftcaps>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <300>;
+            flavor = "balanced";
         };
     };
 
@@ -184,6 +185,24 @@
             key-positions = <1 2 3>;
             require-prior-idle-ms = <10>;
         };
+
+        to2 {
+            bindings = <&to 2>;
+            key-positions = <47 23>;
+            require-prior-idle-ms = <10>;
+        };
+
+        to3 {
+            bindings = <&to 3>;
+            key-positions = <47 23 24>;
+            require-prior-idle-ms = <10>;
+        };
+
+        to4 {
+            bindings = <&to 4>;
+            key-positions = <47 23 24 25>;
+            require-prior-idle-ms = <10>;
+        };
     };
 
     keymap {
@@ -204,10 +223,10 @@
         S1M {
             display-name = "SYM";
             bindings = <
-&kp DOT     &kp DOT     &kp DOT  &kp DOT                                       &kp DOT                                                     &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen               &kp DOT                           &kp DOT  &kp DOT                                 &kp DOT
-&kp DELETE  &kp DOT     &kp DOT  &kp DOT                                       &kp DOT                                                     &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap_kpkp_holdpref LBKT LPAR  &holdtap_kpkp_holdpref RBKT RPAR  &kp A    &holdtap_kpkp_holdpref AMPERSAND CARET  &to 4
-&kp DOT     &kp PERIOD  &kp DOT  &kp DOT                                       &kp DOT                                                     &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT                           &kp DOT                           &kp DOT  &kp DOT                                 &to 3
-                                 &holdtap_kpto_tappref LS(LA(LC(LEFT_WIN))) 0  &holdtap_kpkp_holdpref LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT                      &to 2
+&kp DOT     &kp DOT     &kp DOT  &kp DOT  &kp DOT  &kp DOT                                &mmv MOVE_UP                     &kp DOT  &MacParagrafzeichen               &kp DOT                           &kp DOT  &kp DOT                                 &kp DOT
+&kp DELETE  &kp DOT     &kp DOT  &kp DOT  &kp DOT  &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT  &holdtap_kpkp_holdpref LBKT LPAR  &holdtap_kpkp_holdpref RBKT RPAR  &kp A    &holdtap_kpkp_holdpref AMPERSAND CARET  &to 4
+&to 0       &kp PERIOD  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT  &kp DOT                           &kp DOT                           &kp DOT  &kp DOT                                 &to 3
+                                 &trans   &to 0    &trans                                                                  &trans   &trans                            &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -217,10 +236,10 @@
             label = "HeyListen";
             display-name = "geg";
             bindings = <
-&kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7      &holdtap_kpkp_holdpref LEFT_ALT F8  &holdtap_kpkp_holdpref TAB UP_ARROW  &kp F10          &kp F11  &kp F12
-&kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp PERIOD  &kp LEFT                            &kp DOWN_ARROW                       &kp RIGHT_ARROW  &kp DOT  &to 4
-&to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5   &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT     &kp HOME                            &kp F9                               &kp END          &kp DOT  &to 3
-                                                 &trans     &trans     &trans                                                                        &kp ENTER   &kp LCTRL                           &to 1
+&kp F1          &kp F2          &kp F3           &kp F4     &kp F5          &kp F6                                       &mmv MOVE_UP                     &kp F7      &holdtap_kpkp_holdpref LEFT_ALT F8  &holdtap_kpkp_holdpref TAB UP_ARROW  &kp F10          &kp F11  &kp F12
+&kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp PERIOD  &kp LEFT                            &kp DOWN_ARROW                       &kp RIGHT_ARROW  &kp DOT  &to 5
+&to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5        &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT     &kp HOME                            &kp F9                               &kp END          &kp DOT  &to 4
+                                                 &trans     &kp LEFT_SHIFT  &trans                                                                        &kp ENTER   &kp LCTRL                           &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
