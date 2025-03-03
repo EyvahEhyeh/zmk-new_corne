@@ -149,9 +149,9 @@ layers:
   MultiNam3:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
-  - {t: ., s: '>'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: B, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
