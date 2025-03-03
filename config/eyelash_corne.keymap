@@ -34,11 +34,13 @@
 
 / {
     behaviors {
-        td_shiftcaps: tdshiftcaps {
+        td_kpkp_200ms_shiftcaps: td_kpkp_200ms_shiftcaps {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Shift/Caps Lock Tap Dance";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+
+            label = "td_kpkp_200ms_shiftcaps";
         };
 
         holdtap_kpkp_holdpref: holdtap_kpkp_holdpref {
@@ -50,9 +52,9 @@
             tapping-term-ms = <200>;
         };
 
-        sticky_key_fivek_qe_lz_moddis: sticky_key_fivek_qe_lz_moddis {
+        sticky_key_5k_qe_lz_moddis: sticky_key_5k_qe_lz_moddis {
             compatible = "zmk,behavior-sticky-key";
-            label = "STICKY_KEY_FIVEK_QE_LZ_MODDIS";
+            label = "STICKY_KEY_5K_QE_LZ_MODDIS";
             bindings = <&sk>;
             #binding-cells = <1>;
             ignore-modifiers;
@@ -61,9 +63,9 @@
             lazy;
         };
 
-        sticky_lay_fivek_qe_lz_moddis: sticky_lay_fivek_qe_lz_moddis {
+        sticky_lay_5k_qe_lz_moddis: sticky_lay_5k_qe_lz_moddis {
             compatible = "zmk,behavior-sticky-key";
-            label = "STICKY_LAY_FIVEK_QE_LZ_MODDIS";
+            label = "STICKY_LAY_5K_QE_LZ_MODDIS";
             bindings = <&sl>;
             #binding-cells = <1>;
             release-after-ms = <5000>;
@@ -82,9 +84,9 @@
             flavor = "balanced";
         };
 
-        holdtap_kpkp_bal_tappref: holdtap_kpkp_bal_tappref {
+        holdtap_kpkp_tappref: holdtap_kpkp_bal_tappref {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KPKP_BAL_TAPPREF";
+            label = "HOLDTAP_KPKP_BAL_TAPPREF (for homerow mods)";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -94,12 +96,38 @@
 
         holdtap_kpto_tappref: holdtap_kpto_tappref {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KPTO_TAPPREF";
+            label = "HOLDTAP_KPTO_TAPPREF (for layer taps)";
             bindings = <&kp>, <&to>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_BEHAVIOR";
+            bindings = <&sticky_key_5k_qe_lz_moddis>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        holdtap_krstick_holdpref: holdtap_krstick_holdpref {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLDTAP_KRSTICK_HOLDPREF";
+            bindings = <&key_repeat>, <&sticky_kp_5000ms>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        sticky_kp_5000ms: sticky_kp_5000ms {
+            compatible = "zmk,behavior-sticky-key";
+            label = "STICKY_KP_5000MS";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <5000>;
         };
     };
 
@@ -162,10 +190,10 @@
         Zer0 {
             display-name = "SveaHej";
             bindings = <
-&kp TAB        &kp RA(W)                               &kp P    &kp O                                                      &kp U           &kp Y                                                                        &kp UP               &kp Q      &kp G      &kp D  &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
-&kp BACKSPACE  &lt 1 A                                 &lt 2 H  &lt 3 E                                                    &lt 4 I         &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S      &kp T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
-&td_shiftcaps  &holdtap_kpkp_holdpref BACKSPACE RA(P)  &kp J    &kp RA(Q)                                                  &kp K           &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C      &kp M  &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
-                                                                &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &sk LEFT_SHIFT  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &sk LCTRL  &to 1
+&kp TAB                   &kp RA(W)                            &kp P    &kp O                                                      &kp U           &kp Y                                                                        &kp UP               &kp Q      &kp G                              &kp D  &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
+&kp BACKSPACE             &lt 1 A                              &lt 2 H  &lt 3 E                                                    &lt 4 I         &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S                              &kp T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
+&td_kpkp_200ms_shiftcaps  &holdtap_kpkp_holdpref PERIOD RA(P)  &kp J    &kp RA(Q)                                                  &kp K           &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                              &kp M  &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
+                                                                        &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &sk LEFT_SHIFT  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_krstick_holdpref 0 LCTRL  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -174,10 +202,10 @@
         S1M {
             display-name = "SYM";
             bindings = <
-&kp DOT     &kp DOT        &kp DOT  &kp DOT  &kp DOT                                                     &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen               &kp DOT                           &kp DOT  &kp DOT                                 &kp DOT
-&kp DELETE  &kp DOT        &kp DOT  &kp DOT  &kp DOT                                                     &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap_kpkp_holdpref LBKT LPAR  &holdtap_kpkp_holdpref RBKT RPAR  &kp A    &holdtap_kpkp_holdpref AMPERSAND CARET  &to 4
-&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT  &kp DOT                                                     &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT                           &kp DOT                           &kp DOT  &kp DOT                                 &to 3
-                                    &to 0    &holdtap_kpkp_holdpref LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT                      &to 2
+&kp DOT     &kp DOT        &kp DOT  &kp DOT                                       &kp DOT                                                     &kp DOT                                &mmv MOVE_UP                     &kp DOT    &MacParagrafzeichen               &kp DOT                           &kp DOT  &kp DOT                                 &kp DOT
+&kp DELETE  &kp DOT        &kp DOT  &kp DOT                                       &kp DOT                                                     &kp DOT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DOT    &holdtap_kpkp_holdpref LBKT LPAR  &holdtap_kpkp_holdpref RBKT RPAR  &kp A    &holdtap_kpkp_holdpref AMPERSAND CARET  &to 4
+&kp DOT     &kp BACKSPACE  &kp DOT  &kp DOT                                       &kp DOT                                                     &kp DOT  &kp K_MUTE                    &mmv MOVE_DOWN                   &kp DOT    &kp DOT                           &kp DOT                           &kp DOT  &kp DOT                                 &to 3
+                                    &holdtap_kpto_tappref LS(LA(LC(LEFT_WIN))) 0  &holdtap_kpkp_holdpref LS(LA(LC(LEFT_COMMAND))) LEFT_SHIFT  &trans                                                                  &kp ENTER  &kp LEFT_ALT                      &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -190,7 +218,7 @@
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5     &kp F6                                       &mmv MOVE_UP                     &kp F7     &kp F8     &kp UP_ARROW    &kp F10          &kp F11  &kp F12
 &kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK  &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp TAB    &kp LEFT   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOT  &to 4
 &to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5   &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT    &kp HOME   &kp F9          &kp END          &kp DOT  &to 3
-                                                 &to 0      &trans     &trans                                                                        &kp ENTER  &kp LCTRL  &to 1
+                                                 &trans     &trans     &trans                                                                        &kp ENTER  &kp LCTRL  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -201,7 +229,7 @@
 &kp DOT  &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT    &kp DOT                      &kp DOT           &kp DOT     &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
 &kp DOT  &holdtap_kpkp_holdpref HASH MINUS  &holdtap_kpkp_holdpref DLLR KP_DIVIDE  &holdtap_kpkp_holdpref PERCENT PLUS  &kp EQUAL  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp N0   &to 5
 &to 2    &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT    &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
-                                                                                   &to 0                                &trans     &trans                                         &trans      &trans  &to 2
+                                                                                   &trans                               &trans     &trans                                         &trans      &trans  &to 2
             >;
 
             label = "MultiNam3";
@@ -212,7 +240,7 @@
 &rgb_ug RGB_COLOR_HSB(183,49,56)  &rgb_ug RGB_COLOR_HSB(303,58,40)  &rgb_ug RGB_COLOR_HSB(309,78,47)  &rgb_ug RGB_COLOR_HSB(192,66,45)  &kp DOT  &kp DOT                      &kp DOT           &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT
 &kp DOT                           &kp DOT                           &kp DOT                           &kp DOT                           &kp DOT  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &to 6
 &to 3                             &kp PAUSE_BREAK                   &kp PRINTSCREEN                   &kp DOT                           &kp DOT  &kp DOT  &kp DOT             &kp DOT           &kp DOT  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &to 5
-                                                                                                      &to 0                             &trans   &trans                                         &trans   &trans   &to 2
+                                                                                                      &trans                            &trans   &trans                                         &trans   &trans   &to 2
             >;
 
             label = "EatMy4ts";
