@@ -141,6 +141,45 @@
             tapping-term-ms = <300>;
             flavor = "balanced";
         };
+
+        hwu: hwu {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HWU";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <100>;
+            flavor = "balanced";
+            hold-while-undecided;
+        };
+
+        hwul: hwul {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HWUL";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <100>;
+            flavor = "balanced";
+            hold-while-undecided-linger;
+        };
+
+        hwrt: hwrt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HWRT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <100>;
+            flavor = "balanced";
+            retro-tap;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -256,10 +295,10 @@
 
         MultiNam3 {
             bindings = <
-&kp DOT  &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT    &kp DOT                      &kp DOT           &kp DOT     &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
-&kp DOT  &holdtap_kpkp_holdpref HASH MINUS  &holdtap_kpkp_holdpref DLLR KP_DIVIDE  &holdtap_kpkp_holdpref PERCENT PLUS  &kp EQUAL  &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp N0   &to 5
-&to 2    &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT    &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
-                                                                                   &trans                               &trans     &trans                                         &trans      &trans  &to 2
+&kp DOT  &kp DOT                            &hwu LEFT_SHIFT A                      &hwul LEFT_SHIFT B                   &hwrt LEFT_SHIFT C  &kp DOT                      &kp DOT           &kp DOT     &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
+&kp DOT  &holdtap_kpkp_holdpref HASH MINUS  &holdtap_kpkp_holdpref DLLR KP_DIVIDE  &holdtap_kpkp_holdpref PERCENT PLUS  &kp EQUAL           &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp N0   &to 5
+&to 2    &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT             &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
+                                                                                   &trans                               &trans              &trans                                         &trans      &trans  &to 2
             >;
 
             label = "MultiNam3";
