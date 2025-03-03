@@ -50,7 +50,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <100>;
         };
 
         sticky_key_5k_qe_lz_moddis: sticky_key_5k_qe_lz_moddis {
@@ -81,8 +83,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             flavor = "balanced";
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <100>;
         };
 
         holdtap_kpkp_tappref: holdtap_kpkp_tappref {
@@ -91,8 +95,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             flavor = "tap-preferred";
+            quick-tap-ms = <300>;
+            require-prior-idle-ms = <100>;
         };
 
         holdtap_kpto_tappref: holdtap_kpto_tappref {
@@ -102,7 +108,9 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
+            require-prior-idle-ms = <100>;
+            quick-tap-ms = <300>;
         };
 
         holdtap_KrStickkp_500ms_tappref: holdtap_KrStickkp_500ms_tappref {
@@ -113,6 +121,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <500>;
             flavor = "tap-preferred";
+            require-prior-idle-ms = <100>;
         };
 
         sticky_kp_1000ms: sticky_kp_1000ms {
@@ -211,10 +220,10 @@
         Zer0 {
             display-name = "SveaHej";
             bindings = <
-&kp TAB     &kp RA(W)                            &kp P    &kp O                                                      &kp U                                          &kp Y                                                                        &kp UP               &kp Q      &kp G                                     &kp D  &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
-&kp PERIOD  &lt 1 A                              &lt 2 H  &lt 3 E                                                    &lt 4 I                                        &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &kp S                                     &kp T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
-&kp PERIOD  &holdtap_kpkp_holdpref PERIOD RA(P)  &kp J    &kp RA(Q)                                                  &kp K                                          &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                                     &kp M  &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
-                                                          &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &holdtap_sticktd_stickkp_tdshica LEFT_SHIFT 0  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_KrStickkp_500ms_tappref 0 LCTRL  &to 1
+&kp TAB     &kp RA(W)                           &kp P  &kp O                                                      &kp U                                          &kp Y                                                                        &kp UP               &kp Q      &kp G                                     &kp D                             &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
+&kp PERIOD  &kp A                               &kp H  &holdtap_kpkp_tappref LEFT_WIN E                           &holdtap_kpkp_tappref LEFT_ALT I               &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &holdtap_kpkp_tappref LEFT_ALT S          &holdtap_kpkp_tappref LEFT_WIN T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
+&kp PERIOD  &holdtap_kpkp_tappref PERIOD RA(P)  &kp J  &kp RA(Q)                                                  &kp K                                          &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                                     &kp M                             &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
+                                                       &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &holdtap_sticktd_stickkp_tdshica LEFT_SHIFT 0  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_KrStickkp_500ms_tappref 0 LCTRL  &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
