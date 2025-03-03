@@ -282,7 +282,7 @@
 
         Navii {
             label = "HeyListen";
-            display-name = "geg";
+            display-name = "HeyListen";
             bindings = <
 &kp F1          &kp F2          &kp F3           &kp F4     &kp F5          &kp F6                                       &mmv MOVE_UP                     &kp F7      &holdtap_kpkp_holdpref LEFT_ALT F8  &holdtap_kpkp_holdpref TAB UP_ARROW  &kp F10          &kp F11  &kp F12
 &kp SCROLLLOCK  &kp ESCAPE      &mkp RCLK        &mkp MCLK  &mkp LCLK       &kp PAGE_UP                  &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp PERIOD  &kp LEFT                            &kp DOWN_ARROW                       &kp RIGHT_ARROW  &kp DOT  &to 5
