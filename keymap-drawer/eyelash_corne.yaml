@@ -28,7 +28,7 @@ layers:
   - N
   - R
   - {t: '-', h: /, s: _}
-  - '&tdshiftcaps'
+  - '&td_shiftcaps'
   - {t: AltGr+P, h: '$$mdi:backspace$$'}
   - J
   - AltGr+Q
@@ -323,8 +323,8 @@ layers:
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: Systerra5, h: toggle}
-  - RGB OFF
-  - RGB ON
+  - RGB TOG
+  - .
   - {t: ., s: '>'}
   - RGB SAD
   - RGB EFR
@@ -342,3 +342,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - {t: geg, h: toggle}
+combos:
+- p: [2, 3]
+  k: RGB TOG
+- p: [1, 2]
+  k: .
+- p: [1, 2, 3]
+  k: .
