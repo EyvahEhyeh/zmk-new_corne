@@ -13,7 +13,7 @@ layers:
   - L
   - W
   - {t: '!', h: '@'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - .
   - {t: A, h: SYM}
   - {t: H, h: geg}
   - {t: E, h: MultiNam3}
@@ -28,7 +28,7 @@ layers:
   - N
   - R
   - {t: '-', h: /, s: _}
-  - '&td_kpkp_200ms_shiftcaps'
+  - .
   - {t: AltGr+P, h: .}
   - J
   - AltGr+Q
@@ -78,7 +78,7 @@ layers:
   - {t: ^, h: '&'}
   - {t: EatMy4ts, h: toggle}
   - {t: ., s: '>'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - .
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -106,8 +106,8 @@ layers:
   - F6
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F7
-  - F8
-  - $$mdi:arrow-up-bold$$
+  - {t: F8, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:keyboard-tab$$'}
   - F10
   - F11
   - F12
@@ -120,7 +120,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:keyboard-tab$$
+  - .
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
