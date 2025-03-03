@@ -586,8 +586,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -890,8 +890,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#geg">
-<text x="0" y="-4" class="key tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -914,8 +914,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -936,8 +936,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 637)" class="layer-geg">
-<text x="0" y="28" class="label" id="geg">geg:</text>
+<g transform="translate(40, 637)" class="layer-HeyListen">
+<text x="0" y="28" class="label" id="HeyListen">HeyListen:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1220,8 +1220,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -1419,8 +1419,8 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 161)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#geg">
-<text x="0" y="-4" class="key tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 161)" class="key keypos-29">
@@ -1530,8 +1530,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#geg">
-<text x="0" y="-4" class="key tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -1554,8 +1554,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -1866,8 +1866,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#geg">
-<text x="0" y="-4" class="key tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -1890,8 +1890,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -2196,8 +2196,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#geg">
-<text x="0" y="-4" class="key tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -2220,8 +2220,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -2538,8 +2538,8 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#geg">
-<text x="0" y="-4" class="key tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
@@ -2562,8 +2562,8 @@ rect.held, rect.combo.held {
 <path d="M742,147 l9,38" class="combo"/>
 <path d="M742,147 l-9,-38" class="combo"/>
 <rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
-<a href="#geg">
-<text x="742" y="147" class="combo tap layer-activator">geg</text>
+<a href="#HeyListen">
+<text x="742" y="147" class="combo tap layer-activator"><tspan style="font-size: 67%">HeyListen</tspan></text>
 </a><text x="742" y="158" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
