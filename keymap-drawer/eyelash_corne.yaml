@@ -1,5 +1,5 @@
 layers:
-  SveaHej:
+  SveAHEJ:
   - $$mdi:keyboard-tab$$
   - AltGr+W
   - P
@@ -77,7 +77,7 @@ layers:
   - A
   - {t: ^, h: '&'}
   - .
-  - {t: SveaHej, h: toggle}
+  - {t: SveAHEJ, h: toggle}
   - .
   - {t: ., s: '>'}
   - {t: ., s: '>'}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SveaHej, h: toggle}
+  - {t: SveAHEJ, h: toggle}
   HeyListenjj:
   - F1
   - F2
