@@ -43,7 +43,7 @@ layers:
   - {t: X, h: Z}
   - {t: ., h: '*'}
   - {t: '$$mdi:backspace$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '&td_kpkp_200ms_shiftcaps', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-control$$', h: '&key_repeat'}
