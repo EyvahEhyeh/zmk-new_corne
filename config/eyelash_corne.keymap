@@ -193,34 +193,6 @@
             flavor = "balanced";
             retro-tap;
         };
-
-        holdtap_kpkp_tappref_htkp_htorl: holdtap_kpkp_tappref_htkp_htorl {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KPKP_TAPPREF_HTKP_HTOR_le (for LEFT homerow)";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            flavor = "tap-unless-interrupted";
-            quick-tap-ms = <300>;
-            require-prior-idle-ms = <100>;
-            hold-trigger-key-positions = <7 22 36 35 19 20 21 6 8 23 37 38 24 9 10 25 39 40 12 27 26 11 46 45 47 41>;
-            hold-trigger-on-release;
-        };
-
-        holdtap_kpkp_tappref_htkp_htorr: holdtap_kpkp_tappref_htkp_htorr {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP_KPKP_TAPPREF_HTKP_HTOR_ri (right homerow)";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <300>;
-            flavor = "tap-unless-interrupted";
-            quick-tap-ms = <300>;
-            require-prior-idle-ms = <100>;
-            hold-trigger-key-positions = <35 19 20 21 6 0 28 18 34 15 16 31 5 17 18 29 2 32 33 42 43 43 30 13 14 1 3 4 44>;
-            hold-trigger-on-release;
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -307,7 +279,7 @@
             display-name = "SveAHEJ";
             bindings = <
 &kp TAB     &kp RA(W)                           &kp P  &kp O                                                      &kp U                                          &kp Y                                                                        &kp UP               &kp Q      &kp G                                     &kp D                             &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
-&kp PERIOD  &kp A                               &kp H  &holdtap_kpkp_tappref_htkp_htorl LEFT_WIN E                &holdtap_kpkp_tappref_htkp_htorl LEFT_ALT I    &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &holdtap_kpkp_tappref LEFT_ALT S          &holdtap_kpkp_tappref LEFT_WIN T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
+&kp PERIOD  &kp A                               &kp H  &none                                                      &none                                          &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &holdtap_kpkp_tappref LEFT_ALT S          &holdtap_kpkp_tappref LEFT_WIN T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
 &kp PERIOD  &holdtap_kpkp_tappref PERIOD RA(P)  &kp J  &kp RA(Q)                                                  &kp K                                          &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                                     &kp M                             &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
                                                        &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &holdtap_sticktd_stickkp_tdshica LEFT_SHIFT 0  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_KrStickkp_500ms_tappref 0 LCTRL  &to 1
             >;
