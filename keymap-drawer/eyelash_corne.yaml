@@ -147,12 +147,12 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: S1M, h: toggle}
   Nam3:
-  - A
+  - B
   - {t: ',', s: <}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: B, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ., s: '>'}
+  - $$mdi:arrow-left-bold$$
   - {t: ., s: '>'}
   - {t: ., s: '>'}
   - {t: '1', s: '!'}
