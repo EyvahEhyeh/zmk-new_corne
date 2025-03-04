@@ -336,8 +336,6 @@
 &to 1           &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4   &mkp MB5        &kp PAGE_DOWN  &kp C_STOP                    &mmv MOVE_DOWN                   &kp DOT     &kp HOME                            &kp F9                               &kp END          &msc SCRL_DOWN  &to 3
                                                  &trans     &kp LEFT_SHIFT  &trans                                                                        &kp ENTER   &kp LCTRL                           &to 1
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         MultiNam3 {
@@ -349,7 +347,6 @@
             >;
 
             label = "Nam3";
-            sensor-bindings = <&inc_dec_kp PLUS KP_MINUS>;
         };
 
         EatMy4ts {
