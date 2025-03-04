@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <input/processors.dtsi>
-#include <behaviors/num_word.dtsi>
 
 /*
 
