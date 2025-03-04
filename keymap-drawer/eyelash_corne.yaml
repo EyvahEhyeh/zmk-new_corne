@@ -16,8 +16,8 @@ layers:
   - .
   - A
   - H
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: E, h: LEFT WIN}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ',', h: ;, s: <}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
