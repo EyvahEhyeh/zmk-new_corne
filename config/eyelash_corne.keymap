@@ -343,10 +343,10 @@
 
         MultiNam3 {
             bindings = <
-&kp B    &kp COMMA                          &hwu LEFT_SHIFT A                      &hwul LEFT_SHIFT B                   &hwrt LEFT_SHIFT C  &kp DOT                      &kp DOT           &kp DOT     &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
-&kp DOT  &holdtap_kpkp_holdpref HASH MINUS  &holdtap_kpkp_holdpref DLLR KP_DIVIDE  &holdtap_kpkp_holdpref PERCENT PLUS  &kp EQUAL           &kp DOT             &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp N0   &kp PERIOD
-&to 2    &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT             &kp DOT  &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
-                                                                                   &trans                               &trans              &trans                                         &trans      &trans  &to 1
+&kp B    &kp COMMA                          &hwu LEFT_SHIFT A                      &hwul LEFT_SHIFT B                   &hwrt LEFT_SHIFT C  &kp LEFT_ARROW                      &kp DOT           &kp DOT     &kp N1  &kp N2  &kp N3  &kp DOT  &kp DOT
+&kp DOT  &holdtap_kpkp_holdpref HASH MINUS  &holdtap_kpkp_holdpref DLLR KP_DIVIDE  &holdtap_kpkp_holdpref PERCENT PLUS  &kp EQUAL           &kp DOT                    &kp DOT  &kp DOT  &kp DOT  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp N0   &kp PERIOD
+&to 2    &kp DOT                            &kp DOT                                &kp DOT                              &kp DOT             &kp DOT         &kp DOT             &kp DOT           &kp DOT     &kp N7  &kp N8  &kp N9  &kp DOT  &to 4
+                                                                                   &trans                               &trans              &trans                                                &trans      &trans  &to 1
             >;
 
             label = "Nam3";
