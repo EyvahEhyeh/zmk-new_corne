@@ -46,7 +46,7 @@ layers:
   - {t: '&td_kpkp_300ms_shiftcaps', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: 'Ctl+Sft+$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-control$$', h: '&key_repeat'}
+  - {t: '&key_repeat LCTRL', h: '0'}
   - {t: S1M, h: toggle}
   S1M:
   - {t: ., s: '>'}
