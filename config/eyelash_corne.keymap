@@ -126,15 +126,16 @@
             quick-tap-ms = <300>;
         };
 
-        holdtap_KrStickkp_500ms_tappref: holdtap_KrStickkp_500ms_tappref {
+        ht_StickkpKr_balhtor: ht_StickkpKr_balhtor {
             compatible = "zmk,behavior-hold-tap";
-            label = "holdtap_KrStickkp_500ms_tappref";
-            bindings = <&key_repeat>, <&sticky_kp_1000ms>;
+            label = "HT_STICKKPKR_BALHTOR";
+            bindings = <&sticky_kp_1000ms>, <&key_repeat>;
 
             #binding-cells = <2>;
             tapping-term-ms = <500>;
-            flavor = "tap-preferred";
-            require-prior-idle-ms = <100>;
+            flavor = "balanced";
+            require-prior-idle-ms = <50>;
+            hold-trigger-on-release;
         };
 
         sticky_kp_1000ms: sticky_kp_1000ms {
@@ -306,10 +307,10 @@
         Zer0 {
             display-name = "SveAHEJ";
             bindings = <
-&kp TAB     &kp RA(W)                           &kp P  &kp O                                                      &kp U                                          &kp Y                                                                        &kp UP               &kp Q      &kp G                                     &kp D                             &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
-&kp PERIOD  &kp A                               &kp H  &ht_kpkpbal_htkp_left_htor_hrm LEFT_WIN E                  &ht_kpkpbal_htkp_left_htor_hrm LEFT_ALT I      &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &holdtap_kpkp_tappref LEFT_ALT S          &holdtap_kpkp_tappref LEFT_WIN T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
-&kp PERIOD  &holdtap_kpkp_tappref PERIOD RA(P)  &kp J  &kp RA(Q)                                                  &kp K                                          &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                                     &kp M                             &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
-                                                       &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &holdtap_sticktd_stickkp_tdshica LEFT_SHIFT 0  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &holdtap_KrStickkp_500ms_tappref 0 LCTRL  &to 1
+&kp TAB     &kp RA(W)                           &kp P  &kp O                                                      &kp U                                          &kp Y                                                                        &kp UP               &kp Q      &kp G                             &kp D                             &kp L  &kp W                       &holdtap_kpkp_holdpref AT_SIGN EXCL
+&kp PERIOD  &kp A                               &kp H  &ht_kpkpbal_htkp_left_htor_hrm LEFT_WIN E                  &ht_kpkpbal_htkp_left_htor_hrm LEFT_ALT I      &holdtap_kpkp_holdpref SEMI COMMA                                  &kp LEFT  &none     &kp RIGHT  &kp F      &holdtap_kpkp_tappref LEFT_ALT S  &holdtap_kpkp_tappref LEFT_WIN T  &kp N  &kp R                       &holdtap_kpkp_holdpref SLASH MINUS
+&kp PERIOD  &holdtap_kpkp_tappref PERIOD RA(P)  &kp J  &kp RA(Q)                                                  &kp K                                          &holdtap_kpkp_holdpref COLON DOT               &kp C_PLAY_PAUSE              &kp DOWN             &kp B      &kp C                             &kp M                             &kp V  &holdtap_kpkp_holdpref Z X  &holdtap_kpkp_holdpref ASTRK APOS
+                                                       &holdtap_kpkp_holdpref LC(LS(LA(LEFT_COMMAND))) BACKSPACE  &holdtap_sticktd_stickkp_tdshica LEFT_SHIFT 0  &holdtap_kpkp_holdpref LC(LS(LEFT_ALT)) SPACE                                                     &kp ENTER  &ht_StickkpKr_balhtor 0 LCTRL     &to 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
