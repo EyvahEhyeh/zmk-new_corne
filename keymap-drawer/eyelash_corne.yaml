@@ -111,7 +111,7 @@ layers:
   - F10
   - F11
   - F12
-  - SCROLLLOCK
+  - {t: '$$mdi:backspace$$', h: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:keyboard-esc$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
